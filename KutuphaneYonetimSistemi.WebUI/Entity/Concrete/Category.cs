@@ -1,15 +1,13 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using LibraryManagementSystem.WebUI.Entity.Abstract;
 
-namespace LibraryManagementSystem.WebUI.Models.EntityFramework
-{
+namespace LibraryManagementSystem.WebUI.Entity.Concrete {
     [Table("Category")]
-    public partial class Category
-    {
+    public partial class Category : IEntity {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Category()
-        {
+        public Category() {
             Book = new HashSet<Book>();
         }
 

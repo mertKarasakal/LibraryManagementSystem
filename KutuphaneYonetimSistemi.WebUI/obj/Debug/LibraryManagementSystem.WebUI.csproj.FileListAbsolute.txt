@@ -136,3 +136,5 @@ D:\JR\01 - Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSis
 D:\JR\01 - Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\LibraryManagementSystem.WebUI.csproj.CopyComplete
 D:\JR\01 - Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\LibraryManagementSystem.WebUI.dll
 D:\JR\01 - Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\LibraryManagementSystem.WebUI.pdb
+D:\JR\01 - Library Management System\git\LibraryManagementSystem\KutuphaneYonetimSistemi.WebUI\obj\Debug\LibraryManagementSystem.WebUI.csproj.AssemblyReference.cache
+D:\JR\01 - Library Management System\git\LibraryManagementSystem\KutuphaneYonetimSistemi.WebUI\obj\Debug\LibraryManagementSystem.WebUI.csproj.CoreCompileInputs.cache

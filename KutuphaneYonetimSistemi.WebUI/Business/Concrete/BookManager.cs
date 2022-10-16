@@ -1,8 +1,104 @@
-﻿using LibraryManagementSystem.WebUI.Business.Abstract;
+﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
+using LibraryManagementSystem.WebUI.Business.Abstract;
+using LibraryManagementSystem.WebUI.DataAccess.Abstract;
+using LibraryManagementSystem.WebUI.DataAccess.Concrete.EntityFramework;
+using LibraryManagementSystem.WebUI.Entity.Concrete;
+using LibraryManagementSystem.WebUI.Utilities.Constants;
+using LibraryManagementSystem.WebUI.Utilities.Logging;
+using LibraryManagementSystem.WebUI.Utilities.Results;
 
-namespace LibraryManagementSystem.WebUI.Business.Concrete
-{
-    public class BookManager : IBookService
-    {
+namespace LibraryManagementSystem.WebUI.Business.Concrete {
+    public class BookManager : IBookService {
+        private readonly IBookDal _bookDal;
+
+        public BookManager() {
+            _bookDal = new EfBookDal();
+        }
+
+        public DataResult<List<Book>> GetList() {
+            try {
+                return new SuccessDataResult<List<Book>>(_bookDal.GetList());
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorDataResult<List<Book>>(/*todo*/);
+            }
+        }
+
+        public DataResult<List<Book>> GetListByCategory(int categoryId) {
+            try {
+                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.CategoryId == categoryId));
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorDataResult<List<Book>>(/*todo*/);
+            }
+        }
+
+        public DataResult<List<Book>> GetListByUser(int userId) {
+            try {
+                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.UserId == userId));
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorDataResult<List<Book>>(/*todo*/);
+            }
+        }
+
+        public DataResult<Book> GetById(int bookId) {
+            try {
+                return new SuccessDataResult<Book>(_bookDal.Get(b => b.Id == bookId));
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorDataResult<Book>(/*todo*/);
+            }
+        }
+
+        public IResult Add(Book book) {
+            try {
+                _bookDal.Add(book);
+                return new SuccessResult(Messages.BookAdded);
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorResult(/*todo*/);
+            }
+        }
+
+        public IResult Update(Book book) {
+            try {
+                _bookDal.Add(book);
+                return new SuccessResult(Messages.BookUpdated);
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorResult(/*todo*/);
+            }
+        }
+
+        public IResult Delete(Book book) {
+            try {
+                _bookDal.Add(book);
+                return new SuccessResult(Messages.BookDeleted);
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorResult(/*todo*/);
+            }
+        }
+
+        public IResult DeliverTheBook(Book book) {
+            try {
+
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorResult(/*todo*/);
+            }
+        }
+
+        public IResult BorrowTheBook(Book book) {
+            try {
+
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorResult(/*todo*/);
+            }
+        }
     }
 }

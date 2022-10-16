@@ -1,15 +1,13 @@
-namespace LibraryManagementSystem.WebUI.Models.EntityFramework
-{
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using LibraryManagementSystem.WebUI.Entity.Abstract;
 
+namespace LibraryManagementSystem.WebUI.Entity.Concrete {
     [Table("User")]
-    public partial class User
-    {
+    public partial class User : IEntity {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public User()
-        {
+        public User() {
             Book = new HashSet<Book>();
         }
 

@@ -65,6 +65,9 @@
     <Reference Include="IronOcr, Version=4.4.0.21181, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
       <HintPath>..\packages\IronOcr.4.4.0\lib\net40\IronOcr.dll</HintPath>
     </Reference>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.CoreUtility, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.VisualStudio.CoreUtility.16.4.280\lib\net472\Microsoft.VisualStudio.CoreUtility.dll</HintPath>
@@ -196,25 +199,39 @@
     <Compile Include="Controllers\TimeController.cs" />
     <Compile Include="DataAccess\Abstract\IBookDal.cs" />
     <Compile Include="DataAccess\Abstract\ICategoryDal.cs" />
-    <Compile Include="DataAccess\Abstract\ISecurityDal.cs" />
+    <Compile Include="DataAccess\Abstract\IEntityRepository.cs" />
     <Compile Include="DataAccess\Abstract\ITimeDal.cs" />
     <Compile Include="DataAccess\Abstract\IUserDal.cs" />
     <Compile Include="DataAccess\Concrete\EntityFramework\EfCategoryDal.cs" />
-    <Compile Include="DataAccess\Concrete\EntityFramework\EfSecurityDal.cs" />
+    <Compile Include="DataAccess\Concrete\EntityFramework\EfEntityRepositoryBase.cs" />
     <Compile Include="DataAccess\Concrete\EntityFramework\EfBookDal.cs" />
     <Compile Include="DataAccess\Concrete\EntityFramework\EfTimeDal.cs" />
     <Compile Include="DataAccess\Concrete\EntityFramework\EfUserDal.cs" />
+    <Compile Include="Entity\Abstract\IEntity.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Entity\Category.cs" />
-    <Compile Include="Entity\Book.cs" />
-    <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\Concrete\Category.cs" />
+    <Compile Include="Entity\Concrete\Book.cs" />
+    <Compile Include="Entity\Concrete\User.cs" />
     <Compile Include="DataAccess\Concrete\EntityFramework\Contexts\LibraryContext.cs" />
-    <Compile Include="Entity\Models\BookModel.cs" />
-    <Compile Include="Entity\Models\TimeModel.cs" />
+    <Compile Include="Entity\Concrete\Models\BookModel.cs" />
+    <Compile Include="Entity\Concrete\Models\TimeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\PersonelRoleProvider.cs" />
+    <Compile Include="Utilities\Constants\ConfigurationKeys.cs" />
+    <Compile Include="Utilities\Constants\Messages.cs" />
+    <Compile Include="Utilities\Logging\Logger.cs" />
+    <Compile Include="Utilities\Constants\LoggerNames.cs" />
+    <Compile Include="Utilities\Results\DataResult.cs" />
+    <Compile Include="Utilities\Results\ErrorDataResult.cs" />
+    <Compile Include="Utilities\Results\ErrorResult.cs" />
+    <Compile Include="Utilities\Results\IDataResult.cs" />
+    <Compile Include="Utilities\Results\IResult.cs" />
+    <Compile Include="Utilities\Results\Result.cs" />
+    <Compile Include="Utilities\Results\SuccessDataResult.cs" />
+    <Compile Include="Utilities\Results\SuccessResult.cs" />
+    <Compile Include="Utilities\Security\Cryptography.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-datepicker.css" />

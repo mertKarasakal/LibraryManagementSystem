@@ -1,11 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace LibraryManagementSystem.WebUI.Models.EntityFramework
-{
+using LibraryManagementSystem.WebUI.Entity.Abstract;
+
+namespace LibraryManagementSystem.WebUI.Entity.Concrete {
     [Table("Book")]
-    public partial class Book
-    {
+    public partial class Book : IEntity {
         public int Id { get; set; }
 
         public int? UserId { get; set; }
