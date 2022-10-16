@@ -1,0 +1,53 @@
+﻿@model LibraryManagementSystem.WebUI.Models.EntityFramework.User
+
+@{
+    ViewBag.Title = "Kullanıcı Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+
+<legend>Kullanıcı kaydını silmek istediğinize emin misiniz?</legend>
+
+
+<table class="table table-striped">
+
+    <tr class="row">
+        <th class="col-sm-3"> Ad Soyad</th>
+        <td class="col-sm5">@Model.Name  @Model.Surname</td>
+    </tr>
+    <tr class="row">
+        <th class="col-sm-3"> Rolü </th>
+        @if (Model.Role == 1)
+        {
+            <td class="col-sm5"> Yönetici</td>
+        }
+        else
+        {
+            <td class="col-sm5">Kullanıcı</td>
+        }
+
+    </tr>
+    <tr class="row">
+        <th class="col-sm-3"> ISBN</th>
+        <td class="col-sm5"> @Html.DisplayFor(model => model.Username)</td>
+    </tr>
+    <tr class="row">
+        <th class="col-sm-3">Yazar </th>
+        <td class="col-sm5"> @Html.DisplayFor(model => model.Password)</td>
+    </tr>
+
+</table>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a href="/User/Index"><button type="button" class="btn btn-outline-dark">Listeye Dön</button></a>
+    </div>
+    <br />
+}
+</div>

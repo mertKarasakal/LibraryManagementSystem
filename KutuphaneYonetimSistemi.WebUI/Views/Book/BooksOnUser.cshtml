@@ -1,0 +1,80 @@
+﻿@model IEnumerable<LibraryManagementSystem.WebUI.Models.EntityFramework.Book>
+
+@{
+    ViewBag.Title = "Books On Me";
+}
+
+
+
+
+<br/>
+
+<div class="card card-lightblue">
+    <div class="card-header">
+        <h3 class="card-title">Books On Me</h3>
+
+
+    </div>
+    <div class="card-body p-0">
+        <table class="table table-hover" >
+            <thead>
+                <tr>
+                    <th>
+                        @Html.Label("Kategori Adı")
+                    </th>
+                    <th>
+                        @Html.Label(" İsim  ") 
+                    </th>
+                    <th>
+                        @Html.Label(" ISBN  ")
+                    </th>
+                    <th>
+                        @Html.Label("  Yazar ")
+                    </th>
+                    <th>
+                        @Html.Label(" Açıklama  ")
+                    </th>
+                    <th>
+                        @Html.Label("  Sayfa Sayısı ")
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Isbn)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Author)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NumberOfPages)
+                        </td>
+
+                        <td>
+                            @if (User.IsInRole("1"))
+                            {
+                                <a href="/Book/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Düzenle</button></a>
+                                <a href="/Book/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Sil</button></a>
+                            }
+
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

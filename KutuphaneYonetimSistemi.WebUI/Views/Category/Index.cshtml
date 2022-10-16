@@ -1,0 +1,70 @@
+﻿@model IEnumerable<LibraryManagementSystem.WebUI.Models.EntityFramework.Category>
+
+@{
+    ViewBag.Title = "Kategoriler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<br />
+@if (User.IsInRole("1"))
+{
+    <p>
+
+
+        <a href="/Category/Create" class="btn btn-app">
+            <i class="fas fa-plus"></i>Kategori Ekle
+        </a>
+    </p>
+}
+
+
+
+
+
+
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Tüm Kategoriler</h3>
+
+
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body p-0">
+        <table class="table">
+        
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                       
+                        <td>
+                            @if (User.IsInRole("1"))
+                            {
+                                <a href="/Category/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Düzenle</button></a>
+                                <a href="/Category/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Sil</button></a>
+                            }
+
+                        </td>
+                        <td>
+                            @Ajax.ActionLink("Kategoriye ait kitaplar", "List",
+                       "Book", new { id = item.Id }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "KitapListe" }, new { @class = "btn btn-outline-primary" })
+
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- /.card-body -->
+</div>
+<!-- /.card -->
+
+<div id="KitapListe"></div>

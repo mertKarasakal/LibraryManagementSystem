@@ -1,0 +1,771 @@
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csprojAssemblyReference.cache
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll.config
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.pdb
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe.config
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.rsp
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe.config
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.rsp
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Console.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Http.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe.config
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.rsp
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\WebGrease.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CopyComplete
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.pdb
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.dll
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.xml
+C:\Users\hmkrs\source\repos\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Console.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Http.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\PagedList.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\WebGrease.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\PagedList.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csprojAssemblyReference.cache
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CopyComplete
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.Dal.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.Entities.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.Dal.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.Dal.dll.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.Entities.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\AForge.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Win32.Registry.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Security.AccessControl.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Security.Principal.Windows.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\AForge.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi3\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Console.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Http.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Win32.Registry.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.AccessControl.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.Principal.Windows.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\WebGrease.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csprojAssemblyReference.cache
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CopyComplete
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Console.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Http.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.rsp
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Win32.Registry.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.AccessControl.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.Principal.Windows.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\WebGrease.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csprojAssemblyReference.cache
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CopyComplete
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.dll
+C:\Users\hmkrs\source\repos\KYSyedek\KutuphaneYonetimSistemi4(katmansız temiz)\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.pdb
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll.config
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.pdb
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe.config
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.rsp
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe.config
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.rsp
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.AppContext.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Console.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Http.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Sockets.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.ValueTuple.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe.config
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.rsp
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.CoreUtility.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Win32.Registry.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.AccessControl.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.Principal.Windows.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\WebGrease.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.pdb
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.pdb
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.AssemblyReference.cache
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CoreCompileInputs.cache
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CopyComplete
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.dll
+D:\codes\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.pdb
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll.config
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\KutuphaneYonetimSistemi.WebUI.pdb
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.exe.config
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csc.rsp
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.exe.config
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\csi.rsp
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.AppContext.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Collections.Immutable.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Console.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Http.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Net.Sockets.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.ValueTuple.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.exe.config
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\vbc.rsp
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\roslyn\VBCSCompiler.exe.config
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.CoreUtility.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Web.Infrastructure.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.Win32.Registry.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.AccessControl.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Security.Principal.Windows.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\WebGrease.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Imaging.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\AForge.Math.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\EntityFramework.SqlServer.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\IronOcr.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.pdb
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Threading.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.VisualStudio.Validation.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\PagedList.Mvc.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Collections.Immutable.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Runtime.CompilerServices.Unsafe.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Threading.Tasks.Extensions.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Helpers.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Mvc.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Optimization.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.Razor.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Deployment.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\System.Web.WebPages.Razor.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Newtonsoft.Json.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Antlr3.Runtime.pdb
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\cs\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\de\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\es\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\fr\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\it\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ja\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ko\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pl\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\ru\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\tr\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\bin\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.AssemblyReference.cache
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CoreCompileInputs.cache
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.csproj.CopyComplete
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.dll
+J:\JR\-Library Management System\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.WebUI\obj\Debug\KutuphaneYonetimSistemi.WebUI.pdb

@@ -1,0 +1,30 @@
+﻿@model LibraryManagementSystem.WebUI.Models.EntityFramework.Category
+
+@{
+    ViewBag.Title = "Kategori Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+
+<legend>Kategori kaydını silmek istediğinize emin misiniz?</legend>
+<br />
+
+<table class="table table-dark">
+    <tr class="row">
+        <th class="col-sm-3">Kategori Adı</th>
+        <td class="col-sm5"> @Html.DisplayFor(model => model.Name)</td>
+    </tr>
+</table>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a href="/Category/Index"><button type="button" class="btn btn-outline-dark">Listeye Dön</button></a>
+    </div>
+}
+</div>

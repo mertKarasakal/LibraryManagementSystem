@@ -1,0 +1,94 @@
+﻿@model IEnumerable<LibraryManagementSystem.WebUI.Models.EntityFramework.User>
+
+@{
+    ViewBag.Title = "Kullanıcılar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+<p>
+
+   
+    <a href="/User/Create" class="btn btn-app">
+        <i class="fas fa-user-plus"></i> Ekle
+    </a>
+</p>
+
+ <div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Tüm Kullanıcılar</h3>
+
+
+    </div>
+    <div class="card-body p-0">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Surname)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Role)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Username)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Password)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Surname)
+                    </td>
+
+
+
+                    @if (item.Role == 1)
+                    {
+                        <td><span class="badge bg-danger">Yönetici</span></td>
+                    }
+                    else
+                    {
+                        <td><span class="badge bg-success">Kullanıcı</span></td>
+                    }
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Username)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Password)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("1"))
+                        {
+                            <a href="/User/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Düzenle</button></a>
+                            <a href="/User/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Sil</button></a>
+                        }
+
+                    </td>
+                    <td>
+                        @Ajax.ActionLink("Üzerindeki Kitaplar", "KullanicidakiKitaplar",
+                   "Book", new { id = item.Id }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "KullaniciListe" }, new { @class = "btn btn-outline-primary" })
+
+                    </td>
+                </tr>
+
+                    }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+ <div id="KullaniciListe"></div>

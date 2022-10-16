@@ -1,0 +1,59 @@
+﻿@model LibraryManagementSystem.WebUI.Models.BookModel
+@{
+    ViewBag.Title = "Kitap Teslim Et";
+}
+@using (Html.BeginForm("KitapTeslimEt", "Kitap", null, FormMethod.Post,
+    new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+
+    <br />
+
+    <div class="card card-warning">
+        <div class="card-header">
+            <h3 class="card-title">Kitap Teslim Et </h3>
+        </div>
+        <div class="card-body">
+
+ 
+            <div class="form-group">
+                <label for="uploadFile"> Resim </label>
+                <br />
+                <input id="ImagePath" title="Upload a product image"
+                       type="file" name="uploadFile" class="btn btn-outline-dark" />
+
+            </div>
+        </div>
+        
+        
+
+
+
+        <div class="card-footer">
+            <button type="submit" class="btn btn-outline-warning">Teslim et</button>
+        </div>
+    </div>
+
+
+}
+
+@if (ViewBag.Olumsuz != null)
+{
+    <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+        <h5><i class="icon fas fa-ban"></i> Uyarı!</h5> @ViewBag.Olumsuz
+    </div>
+}
+else if (ViewBag.Olumlu != null)
+{
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+        <h5><i class="icon fas fa-check"></i> Tebrikler!</h5>
+        @ViewBag.Olumlu
+    </div>
+}

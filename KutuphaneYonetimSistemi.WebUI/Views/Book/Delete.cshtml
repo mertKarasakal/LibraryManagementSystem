@@ -1,0 +1,55 @@
+﻿@model LibraryManagementSystem.WebUI.Models.EntityFramework.Book
+
+    @using LibraryManagementSystem.WebUI.Security;
+@{
+    ViewBag.Title = "Kitap Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<legend>Kitap kaydını silmek istediğinize emin misiniz?</legend>
+
+
+    <table class="table table-striped">
+        <tr class="row">
+            <th class="col-sm-3">Kategori Adı</th>
+            <td class="col-sm5"> @Html.DisplayFor(model => model.Category.Name)</td>
+        </tr>
+        <tr class="row">
+            <th class="col-sm-3"> Mevcut Kişisi</th>
+            <td class="col-sm5">@PersonelRoleProvider.kayitIsim</td>
+        </tr>
+        <tr class="row">
+            <th class="col-sm-3"> Kitap İsmi</th>
+            <td class="col-sm5"> @Html.DisplayFor(model => model.Name)</td>
+        </tr>
+        <tr class="row">
+            <th class="col-sm-3"> ISBN</th>
+            <td class="col-sm5"> @Html.DisplayFor(model => model.Isbn)</td>
+        </tr>
+        <tr class="row">
+            <th class="col-sm-3">Yazar </th>
+            <td class="col-sm5"> @Html.DisplayFor(model => model.Author)</td>
+        </tr>
+        <tr class="row">
+            <th class="col-sm-3">Sayfa Sayısı </th>
+            <td class="col-sm5"> @Html.DisplayFor(model => model.NumberOfPages)</td>
+        </tr>
+        <tr class="row">
+            <th class="col-sm-3">Açıklama </th>
+            <td class="col-sm5"> @Html.DisplayFor(model => model.Description)</td>
+        </tr>
+    </table>
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input autofocus type="submit" value="Sil" class="btn btn-danger" /> |
+            <a href="/Book/Index" ><button  type="button" class="btn btn-outline-dark">Listeye Dön</button></a>
+        </div>
+    }
+</div>

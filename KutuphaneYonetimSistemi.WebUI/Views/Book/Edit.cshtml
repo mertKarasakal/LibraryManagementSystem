@@ -1,0 +1,167 @@
+﻿@model LibraryManagementSystem.WebUI.Models.EntityFramework.Book
+@{
+    ViewBag.Title = "Kitap Düzenle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="card card-success">
+
+        <div class="card-body">
+
+            <div class="card-header">
+                <h3 class="card-title">Kitap Bilgisi Düzenle </h3>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> Kimin Üzerinde</label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+
+                        @Html.DropDownList("UserId", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.UserId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> Kategorisi </label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+
+                        @Html.DropDownList("CategoryId", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> Rol </label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Rol" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> ISBN </label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+                        @Html.EditorFor(model => model.Isbn, new { htmlAttributes = new { @class = "form-control", placeholder = " ISBN" } })
+                        @Html.ValidationMessageFor(model => model.Isbn, "", new { @class = "text-danger" })
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> Yazar </label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+                        @Html.EditorFor(model => model.Author, new { htmlAttributes = new { @class = "form-control", placeholder = "Yazar" } })
+                        @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> Açıklama </label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+
+                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", placeholder = "Açıklama " } })
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> Sayfa Sayısı </label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+
+                        @Html.EditorFor(model => model.NumberOfPages, new { htmlAttributes = new { @class = "form-control", placeholder = "Sayfa Sayısı " } })
+                        @Html.ValidationMessageFor(model => model.NumberOfPages, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label> ISBN </label>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="input-group mb-3">
+                        @Html.EditorFor(model => model.ImagePath, new { htmlAttributes = new { @class = "form-control", style = "display:none", placeholder = " ISBN" } })
+                        @Html.ValidationMessageFor(model => model.ImagePath, "", new { @class = "text-danger", style = "display:none" })
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group row">
+                <div class="col-md-offset-2">
+                    <input type="submit" value="Güncelle" class="btn btn-success" />
+                </div>|
+                <div class="col-md-offset-2 ">
+                    <a href="/Book/Index"><button class="btn btn-outline-dark">Listeye Dön</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+}
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
