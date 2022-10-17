@@ -25,7 +25,15 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
                 return new ErrorDataResult<List<User>>(/*todo*/);
             }
         }
-
+        
+        public DataResult<User> GetUserByCredentials(string username, string password) {
+            try {
+                return new SuccessDataResult<User>(_userDal.Get(u => u.Username == username && u.Password == password));
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorDataResult<User>(/*todo*/);
+            }
+        }
         public DataResult<User> GetById(int userId) {
             try {
                 return new SuccessDataResult<User>(_userDal.Get(u => u.Id == userId));

@@ -8,6 +8,7 @@ namespace LibraryManagementSystem.WebUI.Business.Abstract {
         DataResult<List<Book>> GetListByCategory(int categoryId);
         DataResult<List<Book>> GetListByUser(int userId);
         DataResult<Book> GetById(int bookId);
+        DataResult<Book> GetByIsbn(string isbn);
         IResult Add(Book book);
         IResult Update(Book book);
         IResult Delete(Book book);

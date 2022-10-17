@@ -1,10 +1,10 @@
 ﻿@model LibraryManagementSystem.WebUI.Entity.Concrete.Models.BookModel
 
 @{
-    ViewBag.Title = "Ödünç Kitap Al";
+    ViewBag.Title = "Borrow a Book";
 }
 
-@using (Html.BeginForm("OduncKitapAl", "Kitap", null, FormMethod.Post,
+@using (Html.BeginForm("BorrowBook", "Kitap", null, FormMethod.Post,
                               new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()

@@ -6,6 +6,7 @@ namespace LibraryManagementSystem.WebUI.Business.Abstract {
     public interface IUserService {
         DataResult<List<User>> GetList();
         DataResult<User> GetById(int userId);
+        DataResult<User> GetUserByCredentials(string username, string password);
         IResult Add(User user);
         IResult Update(User user);
         IResult Delete(User user);

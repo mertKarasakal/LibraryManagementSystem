@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> @ViewBag.Title | Kütüphane Yönetim Sistemi</title>
+    <title> @ViewBag.Title | Library Management System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="~/Content/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
@@ -35,7 +35,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
-                        <b>KÜTÜPHANE</b> YÖNETİM SİSTEMİ
+                        <b>LIBRARY</b> MANAGEMENT SYSTEM
                     </a>
 
                 </li>
@@ -53,7 +53,7 @@
                      alt="AdminLTE Logo"
                      class="brand-image img-circle elevation-3"
                      style="opacity: .8">
-                <span class="brand-text font-weight-light">KYS  </span>
+                <span class="brand-text font-weight-light">LMS  </span>
             </a>
 
             <div class="sidebar">
@@ -61,7 +61,7 @@
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
 
                     <div class="info">
-                        <a href="/Time/Index" class="d-block">Sistem Zamanı: @PersonelRoleProvider.MevcutGun.ToString("dd/MM/yyyy") </a>
+                        <a href="/Time/Index" class="d-block">System Time: @PersonelRoleProvider.MevcutGun.ToString("dd/MM/yyyy") </a>
                     </div>
                 </div>
                 <nav class="mt-2">
@@ -89,13 +89,13 @@
                                     <li class="nav-item">
                                         <a href="/User/Index" class="nav-link">
                                             <i class="far fa-circle nav-icon text-wa"></i>
-                                            <p>Tüm Kullanıcılar</p>
+                                            <p>All Users</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="/User/Create" class="nav-link">
                                             <i class="far fa-circle nav-icon text-wa"></i>
-                                            <p>Kullanıcı Ekle</p>
+                                            <p>Add new user</p>
                                         </a>
                                     </li>
 
@@ -118,7 +118,7 @@
                                 <li class="nav-item">
                                     <a href="/User/HesapAyarlari/@PersonelRoleProvider.personelId1" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Hesap Ayarları</p>
+                                        <p>Account Settings</p>
                                     </a>
                                 </li>
 
@@ -133,7 +133,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa fa-book fa-fw"></i>
                                 <p>
-                                    Kitaplar
+                                    Books
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -141,7 +141,7 @@
                                 <li class="nav-item">
                                     <a href="/Book/Index" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Tüm Kitaplar</p>
+                                        <p>All Books</p>
                                     </a>
                                 </li>
                                 @if (User.IsInRole("1"))
@@ -149,14 +149,14 @@
                                     <li class="nav-item">
                                         <a href="/Book/Create" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Kitap Ekle </p>
+                                            <p>Add Book </p>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/Category/Index" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Kategoriler </p>
+                                            <p>Categories </p>
                                         </a>
                                     </li>
 
@@ -165,34 +165,21 @@
                                 @if (User.IsInRole("1") || User.IsInRole("2"))
                                 {
                                     <li class="nav-item">
-                                        <a href="/Book/OduncKitapAl" class="nav-link">
+                                        <a href="/Book/BorrowBook" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Ödünç Kitap Al</p>
+                                            <p>Borrow a Book</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="/Book/KitapTeslimEt" class="nav-link">
+                                        <a href="/Book/DeliverBook" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Kitap Teslim Et</p>
+                                            <p>Deliver Book</p>
                                         </a>
                                     </li>
                                 }
 
                             </ul>
                         </li>
-                        @if (User.IsInRole("1"))
-                        {
-                            <li class="nav-item">
-                                <a href="/Time/Index" class="nav-link">
-                                    <i class="nav-icon fas fa-terminal on fa-square"></i>
-                                    <p>
-                                        Zamanda Yolculuk
-                                    </p>
-                                </a>
-                            </li>
-                        }
-
-
                     </ul>
                 </nav>
             </div>

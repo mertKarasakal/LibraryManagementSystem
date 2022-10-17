@@ -1,12 +1,11 @@
 ﻿@model LibraryManagementSystem.WebUI.Entity.Concrete.Book
 @{
-    ViewBag.Title = "Kitap Düzenle";
+    ViewBag.Title = "Edit Book";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <br />
 
-@using (Html.BeginForm())
-{
+@using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
 
 
@@ -19,13 +18,13 @@
         <div class="card-body">
 
             <div class="card-header">
-                <h3 class="card-title">Kitap Bilgisi Düzenle </h3>
+                <h3 class="card-title">Edit Book </h3>
             </div>
             <br />
 
             <div class="row">
                 <div class="col-sm-2">
-                    <label> Kimin Üzerinde</label>
+                    <label> User</label>
                 </div>
                 <div class="col-sm-6">
 
@@ -38,7 +37,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-2">
-                    <label> Kategorisi </label>
+                    <label> Category </label>
                 </div>
                 <div class="col-sm-6">
 
@@ -52,7 +51,7 @@
 
             <div class="row">
                 <div class="col-sm-2">
-                    <label> Rol </label>
+                    <label> Role </label>
                 </div>
                 <div class="col-sm-6">
 
@@ -82,7 +81,7 @@
 
             <div class="row">
                 <div class="col-sm-2">
-                    <label> Yazar </label>
+                    <label> Author </label>
                 </div>
                 <div class="col-sm-6">
 
@@ -96,7 +95,7 @@
 
             <div class="row">
                 <div class="col-sm-2">
-                    <label> Açıklama </label>
+                    <label> Description </label>
                 </div>
                 <div class="col-sm-6">
 
@@ -110,7 +109,7 @@
 
             <div class="row">
                 <div class="col-sm-2">
-                    <label> Sayfa Sayısı </label>
+                    <label> Number of Pages </label>
                 </div>
                 <div class="col-sm-6">
 
@@ -121,8 +120,6 @@
                     </div>
                 </div>
             </div>
-
-
 
             <div class="row">
                 <div class="col-sm-2">
@@ -138,30 +135,18 @@
                 </div>
             </div>
 
-
-
-
             <div class="form-group row">
                 <div class="col-md-offset-2">
-                    <input type="submit" value="Güncelle" class="btn btn-success" />
+                    <input type="submit" value="Update" class="btn btn-success" />
                 </div>|
                 <div class="col-md-offset-2 ">
-                    <a href="/Book/Index"><button class="btn btn-outline-dark">Listeye Dön</button></a>
+                    <a href="/Book/Index"><button class="btn btn-outline-dark">Back to list</button></a>
                 </div>
             </div>
 
         </div>
     </div>
-
-
-
-
 }
-
-
-
-
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
-

@@ -33,7 +33,7 @@ namespace LibraryManagementSystem.WebUI.DataAccess.Concrete.EntityFramework {
             }
         }
 
-        public IList<TEntity> GetList(Expression<Func<TEntity, bool>> filter = null) {
+        public List<TEntity> GetList(Expression<Func<TEntity, bool>> filter = null) {
             using (var context = new TContext()) {
                 return filter == null ?
                     context.Set<TEntity>().ToList() :

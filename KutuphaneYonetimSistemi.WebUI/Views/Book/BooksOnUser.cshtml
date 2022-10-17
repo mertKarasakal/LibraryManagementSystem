@@ -1,48 +1,39 @@
 ﻿@model IEnumerable<LibraryManagementSystem.WebUI.Entity.Concrete.Book>
-
 @{
     ViewBag.Title = "Books On Me";
 }
-
-
-
-
-<br/>
-
+<br />
 <div class="card card-lightblue">
     <div class="card-header">
         <h3 class="card-title">Books On Me</h3>
-
-
     </div>
     <div class="card-body p-0">
-        <table class="table table-hover" >
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>
-                        @Html.Label("Kategori Adı")
+                        @Html.Label("Category Name")
                     </th>
                     <th>
-                        @Html.Label(" İsim  ") 
+                        @Html.Label(" Name  ")
                     </th>
                     <th>
                         @Html.Label(" ISBN  ")
                     </th>
                     <th>
-                        @Html.Label("  Yazar ")
+                        @Html.Label("  Author ")
                     </th>
                     <th>
-                        @Html.Label(" Açıklama  ")
+                        @Html.Label(" Description  ")
                     </th>
                     <th>
-                        @Html.Label("  Sayfa Sayısı ")
+                        @Html.Label("  Number of Pages ")
                     </th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model)
-                {
+                @foreach (var item in Model) {
                     <tr>
                         <td>
                             @Html.DisplayFor(modelItem => item.Category.Name)
@@ -64,15 +55,12 @@
                         </td>
 
                         <td>
-                            @if (User.IsInRole("1"))
-                            {
-                                <a href="/Book/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Düzenle</button></a>
-                                <a href="/Book/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Sil</button></a>
+                            @if (User.IsInRole("1")) {
+                                <a href="/Book/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Edit</button></a>
+                                <a href="/Book/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Delete</button></a>
                             }
-
                         </td>
                     </tr>
-
                 }
             </tbody>
         </table>

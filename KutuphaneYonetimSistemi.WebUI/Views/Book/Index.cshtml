@@ -5,40 +5,38 @@
 }
 
 <br />
-@if (User.IsInRole("1"))
-{
+@if (User.IsInRole("1")) {
     <p>
 
 
         <a href="/Book/Create" class="btn btn-app">
-            <i class="fas fa-plus"></i>Kitap Ekle
+            <i class="fas fa-plus"></i>Add Book
         </a>
     </p>
 }
 
-@using (Html.BeginForm("Index", "Kitap", FormMethod.Get))
-{
+@using (Html.BeginForm("Index", "Book", FormMethod.Get)) {
 
 
 
 
     <div class="card  card-dark ">
         <div class="card-header">
-            <h3 class="card-title"> Kitap Ara</h3><div class="card-tools">
-    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-circle text-warning"></i></button>
-    <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-circle text-success"></i></button>
-    <button type="button" class="btn btn-tool" data-card-widget="remove"> <i class="fas fa-circle text-danger"></i></button>
+            <h3 class="card-title">Find Book</h3><div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-circle text-warning"></i></button>
+                <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-circle text-success"></i></button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove"> <i class="fas fa-circle text-danger"></i></button>
 
 
-</div>
+            </div>
         </div>
 
         <form class="form-horizontal">
             <div class="card-body">
                 <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">İsim</label>
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
                     <div class="col-sm-10">
-                        @Html.TextBox("isim", null, new { @class = "form-control" })
+                        @Html.TextBox("name", null, new { @class = "form-control" })
 
                     </div>
                 </div>
@@ -49,14 +47,14 @@
 
                     </div>
                 </div>
-              
+
             </div>
             <div class="card-footer">
-                <button type="submit" class="btn btn-outline-dark">Ara..</button>
+                <button type="submit" class="btn btn-outline-dark">Find..</button>
             </div>
         </form>
     </div>
- 
+
 
 }
 
@@ -66,7 +64,7 @@
 
 <div class="card card-teal">
     <div class="card-header">
-        <h3 class="card-title">Tüm Kitaplar</h3>
+        <h3 class="card-title">All Books</h3>
 
 
     </div>
@@ -86,8 +84,8 @@
                     <th>
                         @Html.DisplayNameFor(model => model.Author)
                     </th>
-                    <th >
-                        @Html.DisplayNameFor(model=>model.DeliveryTime)
+                    <th>
+                        @Html.DisplayNameFor(model => model.DeliveryTime)
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Category.Name)
@@ -102,121 +100,92 @@
                         @Html.DisplayNameFor(model => model.NumberOfPages)
                     </th>
                     <th>
-                        teslim durumu
+                        Delivery Status
                     </th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model)
-                {
-                <tr>
-                    @if (item.ImagePath == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
+                @foreach (var item in Model) {
+                    <tr>
+                        @if (item.ImagePath == null) {
+                            <td></td>
+                        } else {
 
+                            <td>
+                                <img src="~/Images/@item.ImagePath" width="100" height="100" />
+                            </td>
+                        }
                         <td>
-                            <img src="~/Images/@item.ImagePath" width="100" height="100" />
+                            @Html.DisplayFor(modelItem => item.Name)
                         </td>
-                    }
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Isbn)
-                    </td>
-
-
-
-                    @if (item.Author == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
                         <td>
-                            @Html.DisplayFor(modelItem => item.Author)
-                        </td>
-                    }
-                    @if (item.DeliveryTime == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
-                        <td>
-                            @Html.DisplayFor(modelItem => item.DeliveryTime)
-                        </td>
-                    }
-                    @if (item.Category == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Category.Name)
-                        </td>
-                    }
-                    @if (item.User == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
-                        <td>
-                            @Html.DisplayFor(modelItem => item.User.Name)
-                        </td>
-                    }
-
-                    @if (item.Description == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Description)
+                            @Html.DisplayFor(modelItem => item.Isbn)
                         </td>
 
-                    }
-
-                    @if (item.NumberOfPages == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
-                        <td>
-                            @Html.DisplayFor(modelItem => item.NumberOfPages)
-                        </td>
-                    }
-
-                    @if (item.Status == null)
-                    {
-                        <td></td>
-                    }
-                    else
-                    {
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Status)
-                        </td>
-                    }
 
 
-                    <td>
-                        @if (User.IsInRole("1"))
-                        {
-                            <a href="/Book/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Düzenle</button></a>
-                            <a href="/Book/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Sil</button></a>
+                        @if (item.Author == null) {
+                            <td></td>
+                        } else {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Author)
+                            </td>
+                        }
+                        @if (item.DeliveryTime == null) {
+                            <td></td>
+                        } else {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DeliveryTime)
+                            </td>
+                        }
+                        @if (item.Category == null) {
+                            <td></td>
+                        } else {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Category.Name)
+                            </td>
+                        }
+                        @if (item.User == null) {
+                            <td></td>
+                        } else {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.User.Name)
+                            </td>
                         }
 
-                    </td>
-                </tr>
+                        @if (item.Description == null) {
+                            <td></td>
+                        } else {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Description)
+                            </td>
 
+                        }
+
+                        @if (item.NumberOfPages == null) {
+                            <td></td>
+                        } else {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NumberOfPages)
+                            </td>
+                        }
+
+                        @if (item.Status == null) {
+                            <td></td>
+                        } else {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Status)
+                            </td>
+                        }
+                        <td>
+                            @if (User.IsInRole("1")) {
+                                <a href="/Book/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Edit</button></a>
+                                <a href="/Book/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Delete</button></a>
+                            }
+
+                        </td>
+                    </tr>
                 }
             </tbody>
         </table>

@@ -1,10 +1,8 @@
-﻿using LibraryManagementSystem.WebUI.Models.EntityFramework;
-using System.Web.Mvc;
-using System.Web.Security;
+﻿using System.Web.Mvc;
 using LibraryManagementSystem.WebUI.Business.Abstract;
 using LibraryManagementSystem.WebUI.Business.Concrete;
-using LibraryManagementSystem.WebUI.Entity;
 using LibraryManagementSystem.WebUI.Entity.Concrete;
+using LibraryManagementSystem.WebUI.Utilities.Constants;
 
 namespace LibraryManagementSystem.WebUI.Controllers {
     public class SecurityController : Controller {
@@ -23,18 +21,16 @@ namespace LibraryManagementSystem.WebUI.Controllers {
         [AllowAnonymous]
         [System.Obsolete]
         public ActionResult Login(User user) {
-            var personelInDb = db.Users.FirstOrDefault(x => x.Username == user.Username && x.Password == user.Password);
-            if (personelInDb != null) {
-                FormsAuthentication.SetAuthCookie(personelInDb.Username, false);
+            if (_securityManager.Login(user).Success) {
                 return RedirectToAction("Index", "Book");
             } else {
-                ViewBag.Mesaj = "Lütfen bilgilerinizi kontrol ediniz!";
+                ViewBag.Mesaj = Messages.CheckYourInformation;
                 return View();
             }
         }
 
         public ActionResult Logout() {
-            FormsAuthentication.SignOut();
+            _securityManager.Logout();
             return RedirectToAction("Login");
         }
     }

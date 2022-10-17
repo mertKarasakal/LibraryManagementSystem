@@ -1,5 +1,4 @@
 using System.Data.Entity;
-using LibraryManagementSystem.WebUI.Entity;
 using LibraryManagementSystem.WebUI.Entity.Concrete;
 
 namespace LibraryManagementSystem.WebUI.Models.EntityFramework

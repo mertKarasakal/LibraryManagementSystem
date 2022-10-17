@@ -29,18 +29,19 @@ namespace LibraryManagementSystem.WebUI.Controllers {
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Name")] Category category) {
             if (ModelState.IsValid) {
-                db.Categories.Add(category);
-                db.SaveChanges();
+                //db.Categories.Add(category);
+                //db.SaveChanges();
+                _categoryManager.Add(category);
                 return RedirectToAction("Index");
             }
-
             return View(category);
         }
 
-        public ActionResult Edit(int? id) {
+        public ActionResult Edit(int id) {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            Category category = db.Categories.Find(id);
+            //Category category = db.Categories.Find(id);
+            Category category = _categoryManager.GetById(id).Data;
             if (category == null)
                 return HttpNotFound();
             return View(category);
@@ -50,17 +51,19 @@ namespace LibraryManagementSystem.WebUI.Controllers {
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Id,Name")] Category category) {
             if (ModelState.IsValid) {
-                db.Entry(category).State = EntityState.Modified;
-                db.SaveChanges();
+                //db.Entry(category).State = EntityState.Modified;
+                //db.SaveChanges();
+                _categoryManager.Update(category);
                 return RedirectToAction("Index");
             }
             return View(category);
         }
 
-        public ActionResult Delete(int? id) {
+        public ActionResult Delete(int id) {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            Category category = db.Categories.Find(id);
+            //Category category = db.Categories.Find(id);
+            Category category = _categoryManager.GetById(id).Data;
             if (category == null)
                 return HttpNotFound();
             return View(category);
@@ -69,15 +72,18 @@ namespace LibraryManagementSystem.WebUI.Controllers {
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id) {
-            Category category = db.Categories.Find(id);
-            db.Categories.Remove(category);
-            db.SaveChanges();
+            //Category category = db.Categories.Find(id);
+            Category category = _categoryManager.GetById(id).Data;
+            //db.Categories.Remove(category);
+            //db.SaveChanges();
+            _categoryManager.Delete(category);
             return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing) {
-            if (disposing)
-                db.Dispose();
+            if (disposing) {
+                //db.Dispose();
+            }
             base.Dispose(disposing);
         }
     }

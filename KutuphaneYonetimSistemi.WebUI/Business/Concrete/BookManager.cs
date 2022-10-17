@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using LibraryManagementSystem.WebUI.Business.Abstract;
 using LibraryManagementSystem.WebUI.DataAccess.Abstract;
@@ -28,7 +29,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<List<Book>> GetListByCategory(int categoryId) {
             try {
-                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.CategoryId == categoryId));
+                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.CategoryId == categoryId).ToList());
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<List<Book>>(/*todo*/);
@@ -47,6 +48,14 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
         public DataResult<Book> GetById(int bookId) {
             try {
                 return new SuccessDataResult<Book>(_bookDal.Get(b => b.Id == bookId));
+            } catch (Exception exception) {
+                Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
+                return new ErrorDataResult<Book>(/*todo*/);
+            }
+        }
+        public DataResult<Book> GetByIsbn(string isbn) {
+            try {
+                return new SuccessDataResult<Book>(_bookDal.Get(b => b.Isbn == isbn));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<Book>(/*todo*/);
@@ -85,7 +94,8 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public IResult DeliverTheBook(Book book) {
             try {
-
+                //todo::fix
+                return new SuccessResult();
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorResult(/*todo*/);
@@ -94,7 +104,8 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public IResult BorrowTheBook(Book book) {
             try {
-
+                //todo::fix
+                return new SuccessResult();
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorResult(/*todo*/);
