@@ -33,15 +33,15 @@
     </div>
 }
 
-@if (ViewBag.Olumsuz != null) {
+@if (ViewBag.BookNotAvailable != null) {
     <div class="alert alert-danger alert-dismissible">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        <h5><i class="icon fas fa-ban"></i> Warning!</h5> @ViewBag.Olumsuz
+        <h5><i class="icon fas fa-ban"></i> Warning!</h5> @ViewBag.BookNotAvailable
     </div>
-} else if (ViewBag.Olumlu != null) {
+} else if (ViewBag.Successful != null) {
     <div class="alert alert-success alert-dismissible">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
         <h5><i class="icon fas fa-check"></i> Congrulations!</h5>
-        @ViewBag.Olumlu
+        @ViewBag.Successful
     </div>
 }

@@ -4,9 +4,8 @@
     ViewBag.Title = "Borrow a Book";
 }
 
-@using (Html.BeginForm("BorrowBook", "Kitap", null, FormMethod.Post,
-                              new { enctype = "multipart/form-data" }))
-{
+@using (Html.BeginForm("BorrowBook", "Book", null, FormMethod.Post,
+                              new { enctype = "multipart/form-data" })) {
     @Html.AntiForgeryToken()
 
 
@@ -18,68 +17,47 @@
 
     <div class="card card-olive">
         <div class="card-header">
-            <h3 class="card-title">Ödünç Kitap Al        </h3>
+            <h3 class="card-title">Borrow a Book       </h3>
         </div>
-
         <div class="card-body">
-
-
-
-
-
-
             <div class="form-group">
-                <label for="uploadFile"> Resim </label>
+                <label for="uploadFile"> Image </label>
                 <br />
                 <input id="ImagePath" title="Upload a product image"
                        type="file" name="uploadFile" class="btn btn-outline-dark" />
-
             </div>
-
-
         </div>
-
-
-
         <div class="card-footer">
-            <button type="submit" class="btn btn-outline-success">Talep et</button>
+            <button type="submit" class="btn btn-outline-success">Demand</button>
         </div>
     </div>
-
-
-
-
 }
 
 
-@if (ViewBag.Olumsuz != null)
-{
+@if (ViewBag.BookNotAvailable != null) {
     <div class="alert alert-danger alert-dismissible">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        <h5><i class="icon fas fa-ban"></i> Uyarı!</h5> @ViewBag.Olumsuz
+        <h5><i class="icon fas fa-ban"></i> Warning!</h5> @ViewBag.BookNotAvailable
     </div>
 }
-@if (ViewBag.Olumlu != null)
-{
+@if (ViewBag.Successful != null) {
     <div class="alert alert-success alert-dismissible">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        <h5><i class="icon fas fa-check"></i> Tebrikler!</h5>
-        @ViewBag.Olumlu
+        <h5><i class="icon fas fa-check"></i> Congrulations!</h5>
+        @ViewBag.Successful
     </div>
 }
-@if (ViewBag.Olumsuz2 != null)
-{
+@if (ViewBag.BookInUse != null) {
     <div class="alert alert-warning alert-dismissible">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
         <h5><i class="icon fas fa-check"></i> Maalesef!</h5>
-        @ViewBag.Olumsuz2
+        @ViewBag.BookInUse
     </div>
-}@if (ViewBag.gecmis != null)
-{
+}@if (ViewBag.BookExpired != null) {
     <div class="alert alert-warning alert-dismissible">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
         <h5><i class="icon fas fa-check"></i> Maalesef!</h5>
-        @ViewBag.gecmis
+        @ViewBag.BookExpired
     </div>
 }
 

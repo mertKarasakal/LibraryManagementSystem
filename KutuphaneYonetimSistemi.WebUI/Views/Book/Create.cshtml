@@ -26,7 +26,7 @@
 
                     <div class="input-group mb-3">
 
-                        @Html.DropDownList("UserId", null, "Kullanıcı seçiniz", htmlAttributes: new { @class = "form-control" })
+                        @Html.DropDownList("UserId", null, "Select user", htmlAttributes: new { @class = "form-control" })
                         @Html.ValidationMessageFor(model => model.UserId, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
                     <div class="input-group mb-3">
 
-                        @Html.DropDownList("CategoryId", null, "Kategori seçiniz", htmlAttributes: new { @class = "form-control" })
+                        @Html.DropDownList("CategoryId", null, "Select category", htmlAttributes: new { @class = "form-control" })
                         @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -53,7 +53,7 @@
 
                     <div class="input-group mb-3">
 
-                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "İsim" } })
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Name" } })
                         @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="input-group mb-3">
-                        @Html.EditorFor(model => model.Author, new { htmlAttributes = new { @class = "form-control", placeholder = "Yazar" } })
+                        @Html.EditorFor(model => model.Author, new { htmlAttributes = new { @class = "form-control", placeholder = "Author" } })
                         @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
 
                     </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="input-group mb-3">
-                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", placeholder = "Açıklama " } })
+                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", placeholder = "Description " } })
                         @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                 <div class="col-sm-6">
                     <div class="input-group mb-3">
 
-                        @Html.EditorFor(model => model.NumberOfPages, new { htmlAttributes = new { @class = "form-control", placeholder = "Sayfa Sayısı " } })
+                        @Html.EditorFor(model => model.NumberOfPages, new { htmlAttributes = new { @class = "form-control", placeholder = "Number of Pages " } })
                         @Html.ValidationMessageFor(model => model.NumberOfPages, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -111,17 +111,17 @@
                 </div>
             </div>
 
-            @if (ViewBag.ISBNN != null) {
+            @if (ViewBag.ISBN != null) {
                 <div class="alert alert-warning alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                     <h5><i class="icon fas fa-check"></i> Unfortunately!</h5>
-                    @ViewBag.ISBNN
+                    @ViewBag.ISBN
                 </div>
             }
 
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Ekle" class="btn btn-success" />
+                    <input type="submit" value="Add" class="btn btn-success" />
                 </div>
             </div>
 

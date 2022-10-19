@@ -47,7 +47,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public IResult Update(Category category) {
             try {
-                _categoryDal.Add(category);
+                _categoryDal.Update(category);
                 return new SuccessResult(Messages.CategoryUpdated);
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
@@ -57,7 +57,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public IResult Delete(Category category) {
             try {
-                _categoryDal.Add(category);
+                _categoryDal.Delete(category);
                 return new SuccessResult(Messages.CategoryDeleted);
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");

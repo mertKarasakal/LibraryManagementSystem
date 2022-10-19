@@ -1,23 +1,18 @@
 ﻿@model IEnumerable<LibraryManagementSystem.WebUI.Entity.Concrete.User>
-
 @{
-    ViewBag.Title = "Kullanıcılar";
+    ViewBag.Title = "Users";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <br/>
 <p>
-
-   
     <a href="/User/Create" class="btn btn-app">
-        <i class="fas fa-user-plus"></i> Ekle
+        <i class="fas fa-user-plus"></i> Add User
     </a>
 </p>
 
  <div class="card">
     <div class="card-header">
-        <h3 class="card-title">Tüm Kullanıcılar</h3>
-
+        <h3 class="card-title">All Users</h3>
 
     </div>
     <div class="card-body p-0">
@@ -57,11 +52,11 @@
 
                     @if (item.Role == 1)
                     {
-                        <td><span class="badge bg-danger">Yönetici</span></td>
+                        <td><span class="badge bg-danger">Administrator</span></td>
                     }
                     else
                     {
-                        <td><span class="badge bg-success">Kullanıcı</span></td>
+                        <td><span class="badge bg-success">User</span></td>
                     }
 
                     <td>
@@ -73,22 +68,20 @@
                     <td>
                         @if (User.IsInRole("1"))
                         {
-                            <a href="/User/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Düzenle</button></a>
-                            <a href="/User/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Sil</button></a>
+                            <a href="/User/Edit/@item.Id"> <button type="button" class="btn btn-outline-dark">Edit</button></a>
+                            <a href="/User/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Delete</button></a>
                         }
 
                     </td>
                     <td>
-                        @Ajax.ActionLink("Üzerindeki Kitaplar", "KullanicidakiKitaplar",
-                   "Book", new { id = item.Id }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "KullaniciListe" }, new { @class = "btn btn-outline-primary" })
+                        @Ajax.ActionLink("Your Books", "BooksOnUserPartial",
+                   "Book", new { id = item.Id }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "UserList" }, new { @class = "btn btn-outline-primary" })
 
                     </td>
                 </tr>
-
                     }
             </tbody>
         </table>
     </div>
 </div>
-
- <div id="KullaniciListe"></div>
+ <div id="UserList"></div>

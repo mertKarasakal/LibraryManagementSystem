@@ -1,18 +1,18 @@
 ﻿@model LibraryManagementSystem.WebUI.Entity.Concrete.Category
 
 @{
-    ViewBag.Title = "Kategori Sil";
+    ViewBag.Title = "Delete Category";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <br/>
 
-<legend>Kategori kaydını silmek istediğinize emin misiniz?</legend>
+<legend>Are you sure you want to delete category?</legend>
 <br />
 
 <table class="table table-dark">
     <tr class="row">
-        <th class="col-sm-3">Kategori Adı</th>
+        <th class="col-sm-3">Category Name</th>
         <td class="col-sm5"> @Html.DisplayFor(model => model.Name)</td>
     </tr>
 </table>
@@ -23,8 +23,8 @@
     @Html.AntiForgeryToken()
 
     <div class="form-actions no-color">
-        <input type="submit" value="Sil" class="btn btn-danger" /> |
-        <a href="/Category/Index"><button type="button" class="btn btn-outline-dark">Listeye Dön</button></a>
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a href="/Category/Index"><button type="button" class="btn btn-outline-dark">Back to list</button></a>
     </div>
 }
-</div>
+</div>@*todo::delete is wrong*@

@@ -57,7 +57,7 @@
 
                     <div class="input-group mb-3">
 
-                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Rol" } })
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Role" } })
                         @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                 <div class="col-sm-6">
 
                     <div class="input-group mb-3">
-                        @Html.EditorFor(model => model.Author, new { htmlAttributes = new { @class = "form-control", placeholder = "Yazar" } })
+                        @Html.EditorFor(model => model.Author, new { htmlAttributes = new { @class = "form-control", placeholder = "Author" } })
                         @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
 
                     </div>
@@ -101,7 +101,7 @@
 
                     <div class="input-group mb-3">
 
-                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", placeholder = "Açıklama " } })
+                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", placeholder = "Description " } })
                         @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -115,7 +115,7 @@
 
                     <div class="input-group mb-3">
 
-                        @Html.EditorFor(model => model.NumberOfPages, new { htmlAttributes = new { @class = "form-control", placeholder = "Sayfa Sayısı " } })
+                        @Html.EditorFor(model => model.NumberOfPages, new { htmlAttributes = new { @class = "form-control", placeholder = "Number of Pages" } })
                         @Html.ValidationMessageFor(model => model.NumberOfPages, "", new { @class = "text-danger" })
                     </div>
                 </div>

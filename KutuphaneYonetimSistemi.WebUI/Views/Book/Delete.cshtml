@@ -1,6 +1,5 @@
-﻿@model LibraryManagementSystem.WebUI.Entity.Concrete.Book
-
-@using LibraryManagementSystem.WebUI.Security;
+﻿@using LibraryManagementSystem.WebUI.Utilities.Security
+@model LibraryManagementSystem.WebUI.Entity.Concrete.Book
 @{
     ViewBag.Title = "Delete Book";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -15,7 +14,7 @@
     </tr>
     <tr class="row">
         <th class="col-sm-3"> Mevcut Kişisi</th>
-        <td class="col-sm5">@PersonelRoleProvider.kayitIsim</td>
+        <td class="col-sm5">@UserRoleProvider.Name</td>
     </tr>
     <tr class="row">
         <th class="col-sm-3">Book Name</th>

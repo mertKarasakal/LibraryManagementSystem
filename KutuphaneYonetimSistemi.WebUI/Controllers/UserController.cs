@@ -91,8 +91,7 @@ namespace LibraryManagementSystem.WebUI.Controllers {
             base.Dispose(disposing);
         }
 
-        //todo::do-en
-        public ActionResult HesapAyarlari(int id) {
+        public ActionResult AccountSettings(int id) {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             //User user = db.Users.Find(id);
@@ -106,7 +105,7 @@ namespace LibraryManagementSystem.WebUI.Controllers {
         //todo::do-en
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult HesapAyarlari([Bind(Include = "Id,Name,Surname,Role,Username,Password")] User user) {
+        public ActionResult AccountSettings([Bind(Include = "Id,Name,Surname,Role,Username,Password")] User user) {
             if (ModelState.IsValid) {
                 //db.Entry(user).State = EntityState.Modified;
                 //db.SaveChanges();

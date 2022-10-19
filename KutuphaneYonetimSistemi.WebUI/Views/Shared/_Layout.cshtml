@@ -1,6 +1,4 @@
-﻿@using LibraryManagementSystem.WebUI.Security
-
-
+﻿@using LibraryManagementSystem.WebUI.Utilities.Security
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,38 +51,27 @@
                      alt="AdminLTE Logo"
                      class="brand-image img-circle elevation-3"
                      style="opacity: .8">
-                <span class="brand-text font-weight-light">LMS  </span>
+                <span class="brand-text font-weight-light">LIBRARY  </span>
             </a>
 
             <div class="sidebar">
 
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
 
-                    <div class="info">
-                        <a href="/Time/Index" class="d-block">System Time: @PersonelRoleProvider.MevcutGun.ToString("dd/MM/yyyy") </a>
-                    </div>
-                </div>
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                                @if (User.IsInRole("1"))
-                                {
+                                @if (User.IsInRole("1")) {
                                     <i class="nav-icon fa fa-user fa-fw text-danger"></i>
-                                }
-                                else
-                                {
+                                } else {
                                     <i class="nav-icon fa fa-user fa-fw"></i>
                                 }
-
                                 <p>
-                                    @PersonelRoleProvider.kayitIsim
+                                    @UserRoleProvider.Name
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
-                            @if (User.IsInRole("1"))
-                            {
+                            @if (User.IsInRole("1")) {
                                 <ul class="nav nav-treeview">
                                     <li class="nav-item">
                                         <a href="/User/Index" class="nav-link">
@@ -105,8 +92,7 @@
                             }
 
                             <ul class="nav nav-treeview">
-                                @if (User.IsInRole("1") || User.IsInRole("2"))
-                                {
+                                @if (User.IsInRole("1") || User.IsInRole("2")) {
                                     <li class="nav-item">
                                         <a href="/Book/BooksOnUser" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
@@ -116,7 +102,7 @@
 
                                 }
                                 <li class="nav-item">
-                                    <a href="/User/HesapAyarlari/@PersonelRoleProvider.personelId1" class="nav-link">
+                                    <a href="/User/AccountSettings/@UserRoleProvider.UserId" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Account Settings</p>
                                     </a>
@@ -144,8 +130,7 @@
                                         <p>All Books</p>
                                     </a>
                                 </li>
-                                @if (User.IsInRole("1"))
-                                {
+                                @if (User.IsInRole("1")) {
                                     <li class="nav-item">
                                         <a href="/Book/Create" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
@@ -162,8 +147,7 @@
 
                                 }
 
-                                @if (User.IsInRole("1") || User.IsInRole("2"))
-                                {
+                                @if (User.IsInRole("1") || User.IsInRole("2")) {
                                     <li class="nav-item">
                                         <a href="/Book/BorrowBook" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
@@ -198,7 +182,7 @@
                 20<b>22</b>
             </div>
             <strong>
-                H. Mert Karasakal
+                Mert Karasakal
             </strong>
         </footer>
 
@@ -252,6 +236,3 @@
     @RenderSection("scripts", required: false)
 </body>
 </html>
-
-
-

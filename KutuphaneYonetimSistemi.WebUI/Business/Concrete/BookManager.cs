@@ -74,7 +74,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public IResult Update(Book book) {
             try {
-                _bookDal.Add(book);
+                _bookDal.Update(book);
                 return new SuccessResult(Messages.BookUpdated);
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
@@ -84,7 +84,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public IResult Delete(Book book) {
             try {
-                _bookDal.Add(book);
+                _bookDal.Delete(book);
                 return new SuccessResult(Messages.BookDeleted);
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");

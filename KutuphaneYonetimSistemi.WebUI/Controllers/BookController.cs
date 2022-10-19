@@ -7,8 +7,8 @@ using LibraryManagementSystem.WebUI.Business.Abstract;
 using LibraryManagementSystem.WebUI.Business.Concrete;
 using LibraryManagementSystem.WebUI.Entity.Concrete;
 using LibraryManagementSystem.WebUI.Entity.Concrete.Models;
-using LibraryManagementSystem.WebUI.Security;
 using LibraryManagementSystem.WebUI.Utilities.Constants;
+using LibraryManagementSystem.WebUI.Utilities.Security;
 
 namespace LibraryManagementSystem.WebUI.Controllers {
     [Authorize(Roles = "1,2")]
@@ -36,10 +36,10 @@ namespace LibraryManagementSystem.WebUI.Controllers {
         }
 
         public ActionResult BooksOnUser() {
-            //todo::remove::var book = db.Books.Include(k => k.Category).Include(k => k.User).Where(x => x.UserId == PersonelRoleProvider.personelId1);
-            return View(_bookManager.GetListByUser(PersonelRoleProvider.personelId1).Data);
+            //todo::remove::var book = db.Books.Include(k => k.Category).Include(k => k.User).Where(x => x.UserId == UserRoleProvider.personelId1);
+            return View(_bookManager.GetListByUser(UserRoleProvider.UserId).Data);
         }
-        public ActionResult KullanicidakiKitaplar(int id) {
+        public ActionResult BooksOnUserPartial(int id) {
             //var book = db.Books.Include(k => k.Category).Include(k => k.User).Where(x => x.CategoryId == id).ToList();
             return PartialView(_bookManager.GetListByCategory(id).Data);
         }
@@ -66,8 +66,8 @@ namespace LibraryManagementSystem.WebUI.Controllers {
             //string words = GoruntuIsleme(uploadFile);
             string words = _imageProcessing.ProcessImage(uploadFile).Data;
             book.Isbn = words;
-            ViewBag.ISBNN = words;
-            book.DeliveryTime = PersonelRoleProvider.MevcutGun.AddDays(7);
+            ViewBag.ISBN = words;
+            book.DeliveryTime = UserRoleProvider.CurrentDay.AddDays(7);
             book.Status = BookStatus.Available;
             if (ModelState.IsValid) {
                 if (uploadFile != null) {
@@ -144,38 +144,38 @@ namespace LibraryManagementSystem.WebUI.Controllers {
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult BorrowBook([Bind(Include = "Isbn")] BookModel kitapModel, HttpPostedFileBase uploadFile) {
+        public ActionResult BorrowBook([Bind(Include = "Isbn")] BookModel bookModel, HttpPostedFileBase uploadFile) {
             //string isbn = GoruntuIsleme(uploadFile);
             string isbn = _imageProcessing.ProcessImage(uploadFile).Data;
             if (ModelState.IsValid) {
                 if (uploadFile != null) {
                     uploadFile.SaveAs(HttpContext.Server.MapPath("~/Images/") + uploadFile.FileName);
-                    kitapModel.ImagePath = uploadFile.FileName;
+                    bookModel.ImagePath = uploadFile.FileName;
                 }
                 //var kitapEsit = db.Books.FirstOrDefault(m => m.Isbn == isbn);
                 var book = _bookManager.GetByIsbn(isbn).Data;
-                //int kitapSayi = db.Books.Where(m => m.UserId == PersonelRoleProvider.personelId1).Count();
-                int bookCount = _bookManager.GetListByUser(PersonelRoleProvider.personelId1).Data.Count;
+                //int kitapSayi = db.Books.Where(m => m.UserId == UserRoleProvider.personelId1).Count();
+                int bookCount = _bookManager.GetListByUser(UserRoleProvider.UserId).Data.Count;
                 //if (kitapEsit != null) {
                 if (book != null) {
                     //var linq = from p in db.Books
                     //where p.Status == BookStatus.OverdueDate && p.UserId == PersonelRoleProvider.personelId1
                     //select p;
-                    var overdueBooks = _bookManager.GetListByUser(PersonelRoleProvider.personelId1).Data
+                    var overdueBooks = _bookManager.GetListByUser(UserRoleProvider.UserId).Data
                         .Where(b => b.Status == BookStatus.OverdueDate);
                     int count = overdueBooks.Count();
                     if (count > 0)
-                        ViewBag.gecmis = Messages.BookExpired;
+                        ViewBag.BookExpired = Messages.BookExpired;
                     else {
                         if (bookCount >= 3)
-                            ViewBag.Olumsuz2 = Messages.BookExceeded;
+                            ViewBag.BookInUse = Messages.BookExceeded;
                         //else if (db.Books.FirstOrDefault(m => m.Isbn == isbn).Status != BookStatus.Available)
                         else if (_bookManager.GetByIsbn(isbn).Data.Status != BookStatus.Available)
-                            ViewBag.Olumsuz2 = Messages.BookInUse;
+                            ViewBag.BookInUse = Messages.BookInUse;
                         else {
-                            ViewBag.Olumlu = Messages.BookReceived;
+                            ViewBag.Successful = Messages.BookReceived;
                             var receivedBook = _bookManager.GetByIsbn(isbn).Data;
-                            receivedBook.UserId = PersonelRoleProvider.personelId1;
+                            receivedBook.UserId = UserRoleProvider.UserId;
                             receivedBook.DeliveryTime = DateTime.Now.AddDays(7);//todo::why adding 7 days
                             receivedBook.Status = BookStatus.InUse;
                             _bookManager.Update(book);
@@ -186,10 +186,10 @@ namespace LibraryManagementSystem.WebUI.Controllers {
                         }
                     }
                 } else
-                    ViewBag.Olumsuz = Messages.BookNotAvailable;
-                return View(kitapModel);
+                    ViewBag.BookNotAvailable = Messages.BookNotAvailable;
+                return View(bookModel);
             }
-            return View(kitapModel);
+            return View(bookModel);
         }
 
         public ActionResult DeliverBook() {
@@ -199,18 +199,18 @@ namespace LibraryManagementSystem.WebUI.Controllers {
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult DeliverBook([Bind(Include = "Isbn")] BookModel kitapModel, HttpPostedFileBase uploadFile) {
+        public ActionResult DeliverBook([Bind(Include = "Isbn")] BookModel bookModel, HttpPostedFileBase uploadFile) {
             //string isbn = GoruntuIsleme(uploadFile);
             string isbn = _imageProcessing.ProcessImage(uploadFile).Data;
             if (ModelState.IsValid) {
                 if (uploadFile != null) {
                     uploadFile.SaveAs(HttpContext.Server.MapPath("~/Images/") + uploadFile.FileName);
-                    kitapModel.ImagePath = uploadFile.FileName;
+                    bookModel.ImagePath = uploadFile.FileName;
                 }
                 //var kitapEsit = db.Books.FirstOrDefault(m => m.Isbn == isbn);
                 var book = _bookManager.GetByIsbn(isbn).Data;
-                if (book != null && book.UserId == PersonelRoleProvider.personelId1) {
-                    ViewBag.Olumlu = Messages.BookReturned;
+                if (book != null && book.UserId == UserRoleProvider.UserId) {
+                    ViewBag.Successful = Messages.BookReturned;
                     book.UserId = 1;//todo::?
                     book.Status = BookStatus.Available;
                     _bookManager.Update(book);
@@ -218,10 +218,10 @@ namespace LibraryManagementSystem.WebUI.Controllers {
                     //db.Books.FirstOrDefault(m => m.Isbn == isbn).Status = BookStatus.Available;
                     //db.SaveChanges();
                 } else
-                    ViewBag.Olumsuz = Messages.BookIsNotAccessible;
-                return View(kitapModel);
+                    ViewBag.BookNotAvailable = Messages.BookIsNotAccessible;
+                return View(bookModel);
             }
-            return View(kitapModel);
+            return View(bookModel);
         }
     }
 }

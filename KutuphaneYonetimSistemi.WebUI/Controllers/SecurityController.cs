@@ -24,7 +24,7 @@ namespace LibraryManagementSystem.WebUI.Controllers {
             if (_securityManager.Login(user).Success) {
                 return RedirectToAction("Index", "Book");
             } else {
-                ViewBag.Mesaj = Messages.CheckYourInformation;
+                ViewBag.Message = Messages.CheckYourInformation;
                 return View();
             }
         }

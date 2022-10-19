@@ -5,7 +5,7 @@
 
 <div class="card card-dark">
     <div class="card-header">
-        <h3 class="card-title">Tüm Kitaplar</h3>
+        <h3 class="card-title">All Books</h3>
 
 
     </div>
@@ -66,8 +66,8 @@
                         <td>
                             @if (User.IsInRole("1"))
                             {
-                                <a href="/Book/Edit/@item.Id"> <button type="button" class="btn btn-outline-light">Düzenle</button></a>
-                                <a href="/Book/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Sil</button></a>
+                                <a href="/Book/Edit/@item.Id"> <button type="button" class="btn btn-outline-light">Edit</button></a>
+                                <a href="/Book/Delete/@item.Id"> <button type="button" class="btn btn-outline-danger">Delete</button></a>
                             }
 
                         </td>
