@@ -422,7 +422,10 @@
     <Content Include="Content\plugins\daterangepicker\website\website.css" />
     <Content Include="Content\plugins\daterangepicker\website\website.js" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d7b5cf3 (cleaning packages)
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.css" />
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.js" />
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.min.js" />
@@ -1892,7 +1895,10 @@
     <Content Include="Content\plugins\daterangepicker\bower.json" />
     <Content Include="Content\plugins\daterangepicker\example\browserify\README.md" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d7b5cf3 (cleaning packages)
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.js.map" />
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.min.js.map" />
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-brands-400.eot" />
