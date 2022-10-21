@@ -19,7 +19,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<List<Category>> GetList() {
             try {
-                return new SuccessDataResult<List<Category>>(_categoryDal.GetList());
+                return new SuccessDataResult<List<Category>>(_categoryDal.GetList(c=>c.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<List<Category>>(/*todo*/);
@@ -28,7 +28,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<Category> GetById(int categoryId) {
             try {
-                return new SuccessDataResult<Category>(_categoryDal.Get(c => c.Id == categoryId));
+                return new SuccessDataResult<Category>(_categoryDal.Get(c => c.Id == categoryId && c.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<Category>(/*todo*/);

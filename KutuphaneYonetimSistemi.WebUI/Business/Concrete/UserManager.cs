@@ -19,7 +19,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<List<User>> GetList() {
             try {
-                return new SuccessDataResult<List<User>>(_userDal.GetList());
+                return new SuccessDataResult<List<User>>(_userDal.GetList(u=>u.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<List<User>>(/*todo*/);
@@ -28,7 +28,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
         
         public DataResult<User> GetUserByCredentials(string username, string password) {
             try {
-                return new SuccessDataResult<User>(_userDal.Get(u => u.Username == username && u.Password == password));
+                return new SuccessDataResult<User>(_userDal.Get(u => u.Username == username && u.Password == password && u.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<User>(/*todo*/);
@@ -36,7 +36,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
         }
         public DataResult<User> GetById(int userId) {
             try {
-                return new SuccessDataResult<User>(_userDal.Get(u => u.Id == userId));
+                return new SuccessDataResult<User>(_userDal.Get(u => u.Id == userId && u.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<User>(/*todo*/);

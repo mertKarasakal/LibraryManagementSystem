@@ -20,7 +20,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<List<Book>> GetList() {
             try {
-                return new SuccessDataResult<List<Book>>(_bookDal.GetList());
+                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b=>b.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<List<Book>>(/*todo*/);
@@ -29,7 +29,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<List<Book>> GetListByCategory(int categoryId) {
             try {
-                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.CategoryId == categoryId).ToList());
+                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.CategoryId == categoryId && b.RecordStatus == true).ToList());
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<List<Book>>(/*todo*/);
@@ -38,7 +38,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<List<Book>> GetListByUser(int userId) {
             try {
-                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.UserId == userId));
+                return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.UserId == userId && b.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<List<Book>>(/*todo*/);
@@ -47,7 +47,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
 
         public DataResult<Book> GetById(int bookId) {
             try {
-                return new SuccessDataResult<Book>(_bookDal.Get(b => b.Id == bookId));
+                return new SuccessDataResult<Book>(_bookDal.Get(b => b.Id == bookId && b.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<Book>(/*todo*/);
@@ -55,7 +55,7 @@ namespace LibraryManagementSystem.WebUI.Business.Concrete {
         }
         public DataResult<Book> GetByIsbn(string isbn) {
             try {
-                return new SuccessDataResult<Book>(_bookDal.Get(b => b.Isbn == isbn));
+                return new SuccessDataResult<Book>(_bookDal.Get(b => b.Isbn == isbn && b.RecordStatus == true));
             } catch (Exception exception) {
                 Logger.Error(LoggerNames.Library, MethodBase.GetCurrentMethod(), exception, $"/*todo*/");
                 return new ErrorDataResult<Book>(/*todo*/);

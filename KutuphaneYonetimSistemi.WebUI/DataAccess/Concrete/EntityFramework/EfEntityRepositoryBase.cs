@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using LibraryManagementSystem.WebUI.DataAccess.Abstract;
 using LibraryManagementSystem.WebUI.Entity.Abstract;
+using LibraryManagementSystem.WebUI.Utilities.Security;
 
 namespace LibraryManagementSystem.WebUI.DataAccess.Concrete.EntityFramework {
     public class EfEntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity>
@@ -12,6 +13,10 @@ namespace LibraryManagementSystem.WebUI.DataAccess.Concrete.EntityFramework {
         where TContext : DbContext, new() {
         public void Add(TEntity entity) {
             using (var context = new TContext()) {
+                entity.UpdateDate = DateTime.Now;
+                entity.UpdatingUserCode = UserRoleProvider.UserId.ToString();
+                entity.UpdatingTranCode = "ADD";
+                entity.RecordStatus = true;
                 var addedEntity = context.Entry(entity);
                 addedEntity.State = EntityState.Added;
 
@@ -21,8 +26,10 @@ namespace LibraryManagementSystem.WebUI.DataAccess.Concrete.EntityFramework {
 
         public void Delete(TEntity entity) {
             using (var context = new TContext()) {
+                entity.RecordStatus = false;
+                entity.UpdatingTranCode = "DELETE";
                 var deletedEntity = context.Entry(entity);
-                deletedEntity.State = EntityState.Deleted;
+                deletedEntity.State = EntityState.Modified;
                 context.SaveChanges();
             }
         }
@@ -43,6 +50,10 @@ namespace LibraryManagementSystem.WebUI.DataAccess.Concrete.EntityFramework {
 
         public void Update(TEntity entity) {
             using (var context = new TContext()) {
+                entity.UpdateDate = DateTime.Now;
+                entity.UpdatingUserCode = UserRoleProvider.UserId.ToString();
+                entity.UpdatingTranCode = "UPDATE";
+                entity.RecordStatus = true;
                 var updatedEntity = context.Entry(entity);
                 updatedEntity.State = EntityState.Modified;
                 context.SaveChanges();

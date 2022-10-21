@@ -5,7 +5,7 @@ using LibraryManagementSystem.WebUI.Entity.Abstract;
 
 namespace LibraryManagementSystem.WebUI.Entity.Concrete {
     [Table("Book")]
-    public /*partial*/ class Book : IEntity {
+    public  class Book : IEntity {
         public int Id { get; set; }
 
         public int? UserId { get; set; }
@@ -23,7 +23,6 @@ namespace LibraryManagementSystem.WebUI.Entity.Concrete {
         [StringLength(50)]
         public string Author { get; set; }
 
-        [StringLength(250)]
         public string Description { get; set; }
 
         public int? NumberOfPages { get; set; }
@@ -40,5 +39,6 @@ namespace LibraryManagementSystem.WebUI.Entity.Concrete {
         public string UpdatingUserCode { get; set; }
         public string UpdatingTranCode { get; set; }
         public DateTime? UpdateDate { get; set; }
+        public bool RecordStatus { get; set; }
     }
 }
