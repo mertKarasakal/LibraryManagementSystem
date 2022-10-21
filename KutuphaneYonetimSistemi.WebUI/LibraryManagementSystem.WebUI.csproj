@@ -421,18 +421,10 @@
     <Content Include="Content\plugins\daterangepicker\website\index.html" />
     <Content Include="Content\plugins\daterangepicker\website\website.css" />
     <Content Include="Content\plugins\daterangepicker\website\website.js" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d7b5cf3 (cleaning packages)
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.css" />
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.js" />
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.min.js" />
     <Content Include="Content\plugins\fastclick\fastclick.js" />
-=======
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="Content\plugins\flag-icon-css\css\flag-icon.css" />
     <Content Include="Content\plugins\flag-icon-css\css\flag-icon.min.css" />
     <Content Include="Content\plugins\flag-icon-css\flags\1x1\ad.svg" />
@@ -949,7 +941,6 @@
     <Content Include="Content\plugins\flag-icon-css\flags\4x3\za.svg" />
     <Content Include="Content\plugins\flag-icon-css\flags\4x3\zm.svg" />
     <Content Include="Content\plugins\flag-icon-css\flags\4x3\zw.svg" />
-<<<<<<< HEAD
     <Content Include="Content\plugins\flot-old\excanvas.js" />
     <Content Include="Content\plugins\flot-old\excanvas.min.js" />
     <Content Include="Content\plugins\flot-old\jquery.colorhelpers.js" />
@@ -985,8 +976,6 @@
     <Content Include="Content\plugins\flot-old\jquery.flot.time.js" />
     <Content Include="Content\plugins\flot-old\jquery.flot.time.min.js" />
     <Content Include="Content\plugins\flot\jquery.flot.js" />
-=======
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="Content\plugins\fontawesome-free\css\all.css" />
     <Content Include="Content\plugins\fontawesome-free\css\all.min.css" />
     <Content Include="Content\plugins\fontawesome-free\css\brands.css" />
@@ -1004,7 +993,6 @@
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-brands-400.svg" />
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-regular-400.svg" />
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-solid-900.svg" />
-<<<<<<< HEAD
     <Content Include="Content\plugins\fullcalendar-bootstrap\LICENSE.txt" />
     <Content Include="Content\plugins\fullcalendar-bootstrap\main.css" />
     <Content Include="Content\plugins\fullcalendar-bootstrap\main.esm.js" />
@@ -1143,8 +1131,6 @@
     <Content Include="Content\plugins\jquery-mapael\maps\world_countries_miller.min.js" />
     <Content Include="Content\plugins\jquery-mousewheel\jquery.mousewheel.js" />
     <Content Include="Content\plugins\jquery-mousewheel\LICENSE.txt" />
-=======
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="Content\plugins\jquery-ui\AUTHORS.txt" />
     <Content Include="Content\plugins\jquery-ui\external\jquery\jquery.js" />
     <Content Include="Content\plugins\jquery-ui\images\ui-icons_444444_256x240.png" />
@@ -1295,7 +1281,6 @@
     <Content Include="Content\plugins\jquery\jquery.min.js" />
     <Content Include="Content\plugins\jquery\jquery.slim.js" />
     <Content Include="Content\plugins\jquery\jquery.slim.min.js" />
-<<<<<<< HEAD
     <Content Include="Content\plugins\jqvmap\jquery.vmap.js" />
     <Content Include="Content\plugins\jqvmap\jquery.vmap.min.js" />
     <Content Include="Content\plugins\jqvmap\jqvmap.css" />
@@ -1328,8 +1313,6 @@
     <Content Include="Content\plugins\jqvmap\maps\jquery.vmap.usa.districts.js" />
     <Content Include="Content\plugins\jqvmap\maps\jquery.vmap.usa.js" />
     <Content Include="Content\plugins\jqvmap\maps\jquery.vmap.world.js" />
-=======
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="Content\plugins\jsgrid\demos\basic.html" />
     <Content Include="Content\plugins\jsgrid\demos\batch-delete.html" />
     <Content Include="Content\plugins\jsgrid\demos\custom-grid-field.html" />
@@ -1367,7 +1350,6 @@
     <Content Include="Content\plugins\jsgrid\jsgrid.js" />
     <Content Include="Content\plugins\jsgrid\jsgrid.min.css" />
     <Content Include="Content\plugins\jsgrid\jsgrid.min.js" />
-<<<<<<< HEAD
     <Content Include="Content\plugins\jszip\jszip.js" />
     <Content Include="Content\plugins\jszip\jszip.min.js" />
     <Content Include="Content\plugins\moment\locales.js" />
@@ -1856,8 +1838,6 @@
     <Content Include="Content\plugins\summernote\summernote.css" />
     <Content Include="Content\plugins\summernote\summernote.js" />
     <Content Include="Content\plugins\summernote\summernote.min.js" />
-=======
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="Content\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.css" />
     <Content Include="Content\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.min.css" />
     <Content Include="Content\plugins\sweetalert2\sweetalert2.all.js" />
@@ -1866,7 +1846,6 @@
     <Content Include="Content\plugins\sweetalert2\sweetalert2.js" />
     <Content Include="Content\plugins\sweetalert2\sweetalert2.min.css" />
     <Content Include="Content\plugins\sweetalert2\sweetalert2.min.js" />
-<<<<<<< HEAD
     <Content Include="Content\plugins\tempusdominus-bootstrap-4\css\tempusdominus-bootstrap-4.css" />
     <Content Include="Content\plugins\tempusdominus-bootstrap-4\css\tempusdominus-bootstrap-4.min.css" />
     <Content Include="Content\plugins\tempusdominus-bootstrap-4\js\tempusdominus-bootstrap-4.js" />
@@ -1874,12 +1853,9 @@
     <Content Include="Content\plugins\toastr\toastr.css" />
     <Content Include="Content\plugins\toastr\toastr.min.css" />
     <Content Include="Content\plugins\toastr\toastr.min.js" />
->>>>>>> parent of d7b5cf3 (cleaning packages)
-=======
     <Content Include="Content\plugins\toastr\toastr.css" />
     <Content Include="Content\plugins\toastr\toastr.min.css" />
     <Content Include="Content\plugins\toastr\toastr.min.js" />
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -1915,16 +1891,8 @@
     <Content Include="Content\plugins\bs-custom-file-input\bs-custom-file-input.min.js.map" />
     <Content Include="Content\plugins\daterangepicker\bower.json" />
     <Content Include="Content\plugins\daterangepicker\example\browserify\README.md" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d7b5cf3 (cleaning packages)
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.js.map" />
     <Content Include="Content\plugins\ekko-lightbox\ekko-lightbox.min.js.map" />
-=======
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-brands-400.eot" />
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-brands-400.ttf" />
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-brands-400.woff" />
@@ -1937,7 +1905,6 @@
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-solid-900.ttf" />
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-solid-900.woff" />
     <Content Include="Content\plugins\fontawesome-free\webfonts\fa-solid-900.woff2" />
-<<<<<<< HEAD
     <Content Include="Content\plugins\icheck-bootstrap\LICENSE" />
     <Content Include="Content\plugins\ion-rangeslider\.editorconfig" />
     <Content Include="Content\plugins\ion-rangeslider\less\irs.less" />
@@ -1975,13 +1942,10 @@
     <Content Include="Content\plugins\summernote\summernote.js.map" />
     <Content Include="Content\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss" />
     <Content Include="Content\plugins\toastr\toastr.js.map" />
->>>>>>> parent of d7b5cf3 (cleaning packages)
-=======
     <Content Include="Content\plugins\jquery\jquery.min.map" />
     <Content Include="Content\plugins\jquery\jquery.slim.min.map" />
     <Content Include="Content\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss" />
     <Content Include="Content\plugins\toastr\toastr.js.map" />
->>>>>>> parent of 0aeda48 (package cleaning)
     <Content Include="Content\bootstrap-datepicker3.standalone.css.map" />
     <Content Include="Content\bootstrap-datepicker3.css.map" />
     <Content Include="Content\bootstrap-datepicker.standalone.css.map" />
